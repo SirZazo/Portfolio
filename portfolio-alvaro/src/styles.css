@@ -79,8 +79,29 @@ a {
 }
 
 .hero-grid {
-  grid-template-columns: 1.4fr 0.8fr;
-  gap: 2rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 4rem;
+}
+
+.hero-content {
+  max-width: 640px;
+}
+
+.hero-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.25rem;
+}
+
+.hero-photo {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 22px;
+  object-fit: cover;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
 }
 
 .eyebrow {
@@ -137,6 +158,12 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.hero-card {
+  width: 280px;
+  max-width: 100%;
+  padding: 1.25rem 1.4rem;
+}
+
 .hero-card ul,
 .experience-list {
   padding-left: 1.2rem;
@@ -145,7 +172,7 @@ h2 {
 
 .hero-card li,
 .experience-list li {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
 }
 
 .mini-title {
@@ -255,6 +282,16 @@ h2 {
     min-height: auto;
     padding-top: 3rem;
   }
+
+  .hero-side {
+    align-items: flex-start;
+  }
+
+  .hero-photo,
+  .hero-card {
+    width: 100%;
+    max-width: 340px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -267,5 +304,9 @@ h2 {
 
   h1 {
     line-height: 1;
+  }
+
+  .hero-grid {
+    gap: 2rem;
   }
 }
