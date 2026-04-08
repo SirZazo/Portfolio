@@ -11,13 +11,14 @@ export default function Experience() {
       <div className="section-heading">
         <p className="eyebrow">Experiencia</p>
         <h2>Entorno real de trabajo técnico</h2>
-
         <a
-          className="button primary"
+          className="button secondary"
           href="/CV_Alvaro_Alvarez_Zazo.pdf"
-          download
+          download="CV_Alvaro_Alvarez_Zazo.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          📄 Descargar CV
+          Descargar CV
         </a>
       </div>
 
