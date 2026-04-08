@@ -11,6 +11,14 @@ export default function Experience() {
       <div className="section-heading">
         <p className="eyebrow">Experiencia</p>
         <h2>Entorno real de trabajo técnico</h2>
+
+        <a
+          className="button primary"
+          href="/CV_Alvaro_Alvarez_Zazo.pdf"
+          download
+        >
+          📄 Descargar CV
+        </a>
       </div>
 
       <article className="card experience-card">

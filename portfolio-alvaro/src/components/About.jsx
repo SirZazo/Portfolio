@@ -3,7 +3,7 @@ export default function About() {
     <section id="about" className="section container">
       <div className="section-heading">
         <p className="eyebrow">Sobre mí</p>
-        <h2>Base técnica fuerte, enfoque práctico</h2>
+        <h2>Base técnica, enfoque práctico</h2>
       </div>
 
       <div className="card text-card">

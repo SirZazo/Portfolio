@@ -13,11 +13,11 @@ export default function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:tuemail@correo.com">tuemail@correo.com</a>
-          <a href="https://github.com/tuusuario" target="_blank" rel="noreferrer">
+          <a href="mailto:zazoengine98@gmail.com">zazoengine98@gmail.com</a>
+          <a href="https://github.com/SirZazo" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/alvaro-alvarez-zazo-6568642a1/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
         </div>

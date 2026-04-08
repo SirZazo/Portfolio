@@ -24,7 +24,7 @@ export default function Skills() {
     <section id="skills" className="section container">
       <div className="section-heading">
         <p className="eyebrow">Stack</p>
-        <h2>Tecnologías y áreas que dominas</h2>
+        <h2>Tecnologías y áreas. </h2>
       </div>
 
       <div className="grid cards-3">
