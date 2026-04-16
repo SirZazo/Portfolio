@@ -18,6 +18,15 @@ const projects = [
     status: 'En desarrollo',
     statusClass: 'progress',
   },
+  {
+    title: 'sales-sql-analysis',
+    description:
+      'Construcción de un proyecto completo de análisis de ventas usando PostgreSQL, SQL y Python.',
+    stack: ['Python', 'SQL', 'PostgreSQL'],
+    github: 'https://github.com/SirZazo/sales-sql-analysis',
+    status: 'En desarrollo',
+    statusClass: 'progress',
+  },
 ];
 
 export default function Projects() {
